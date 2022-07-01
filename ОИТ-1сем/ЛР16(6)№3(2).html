@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Звёздопад</title>
+    <style>
+        body {
+            background: url(ночь2.jpg);
+        }
+        
+        @-webkit-keyframes an {
+            0% {
+                margin-left: 400px;
+                /*величинa внешнего отступа от левой части элемента.*/
+                margin-top: 1px;
+                /*величинa внешнего отступа от верхней части элемента*/
+            }
+            100% {
+                margin-left: 1px;
+                margin-top: 500px;
+            }
+        }
+        
+        #wrap2 {
+            animation: an 3s infinite;
+            background-repeat: no-repeat;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div id=wrap2><img src="звезда2.png"></div>
+</body>
+
+</html>

@@ -1,0 +1,20 @@
+ body {
+     background-color: rgb(229, 204, 231);
+ }
+ 
+ h1,
+ h2,
+ h3,
+ span {
+     font-style: italic;
+     color: rgb(100, 10, 122);
+     font-family: 'Times New Roman';
+ }
+ 
+ li {
+     color: rgb(140, 0, 255);
+ }
+ 
+ td {
+     color: blue;
+ }

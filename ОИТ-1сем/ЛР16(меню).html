@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+
+<head>
+    <title>ЛР 1 семестр</title>
+    <style>
+        body {
+            background: url(облака.jpg);
+            background-repeat: no-repeat;
+            background-size: 1600px;
+        }
+        
+        .v {
+            margin: 100px 0;
+            background-color: #72657275;
+        }
+        /* убираем отступы и поля, а также list-style для "ul", 
+         * и добавляем "position:relative" */
+        
+        ul {
+            padding: 0;
+            margin: 0;
+            list-style: none;
+            position: relative;
+        }
+        /* применяем inline-block позиционирование к элементам навигации */
+        
+        li {
+            font-family: gabriola;
+            margin: 0px -7px 0 0;
+            display: inline-block;
+        }
+        /* стилизуем ссылки */
+        
+        a {
+            display: block;
+            padding: 0 10px;
+            color: #FFF;
+            font-size: 20px;
+            line-height: 60px;
+            text-decoration: none;
+        }
+        
+        nav ul ul {
+            display: none;
+            position: absolute;
+            top: 100%;
+        }
+        /* отображаем выпадающий список при наведении */
+        
+        .l:hover ul {
+            display: inherit;
+        }
+        /* первый уровень выпадающего списка */
+        
+        .i {
+            min-width: 170px;
+            float: none;
+            display: list-item;
+            /*делает в столбик*/
+            position: relative;
+        }
+        /* изменяем цвет фона при наведении курсора */
+        
+        a:hover {
+            background-color: #72d0e794;
+        }
+    </style>
+</head>
+
+<body>
+
+    <nav class=v>
+        <ul>
+            <font size=10px;>
+                <li class=l><a href="#">Word</a>
+                    <ul>
+                        <li class=i>
+                            <li class=i><a href="ЛР1,2.docx">ЛР 1,2</a></li>
+                    </ul>
+                    </li>
+                    <li class=l><a href=" # ">Excel</a>
+
+                        <ul>
+                            <li class=i><a href="Лр3.xlsx">ЛР 1</a></li>
+                        </ul>
+
+                    </li>
+                    <li class=l>
+                        <a href="# ">Access</a>
+                        <ul>
+                            <li class=i><a href="ЛР4,5,6.accdb">ЛР 1,2,3</a></li>
+                        </ul>
+                    </li>
+                    <li class=l><a href="# ">Mathcad</a>
+                        <ul>
+
+                            <li class=i><a href="ЛР7.xmcd">ЛР 1</a></li>
+                            <li class=i><a href="ЛР8.xmcd">ЛР 2</a></li>
+                            <li class=i><a href="ЛР9.xmcd">ЛР 3</a></li>
+                            <li class=i><a href="ЛР10.xmcd">ЛР 4</a></li>
+                        </ul>
+                    </li>
+
+                    <li class=l>
+                        <a href="# ">HTML/CSS</a>
+                        <ul>
+                            <li class=i><a href="ЛР11(1).html">ЛР 1</a></li>
+                            <li class=i><a href="ЛР12(2).html">ЛР 2</a></li>
+                            <li class=i><a href="ЛР13(3).html">ЛР 3</a></li>
+                            <li class=i><a href="ЛР14(4)№1.html">ЛР 4 №1</a></li>
+                            <li class=i><a href="ЛР14(4)№2.html">ЛР 4 №2</a></li>
+                            <li class=i><a href="ЛР14(4)№3.html">ЛР 4 №3</a></li>
+                            <li class=i><a href="ЛР14(4)№4.html">ЛР 4 №4</a></li>
+                            <li class=i><a href="ЛР15(5).html">ЛР 5</a></li>
+                            <li class=i><a href="ЛР16(6)№1.html">ЛР 6 №1</a></li>
+                            <li class=i><a href="ЛР16(6)№2.html">ЛР 6 №2</a></li>
+                            <li class=i><a href="ЛР16(6)№3(1).html">ЛР 6 №3(1)</a></li>
+                            <li class=i><a href="ЛР16(6)№3(2).html">ЛР 6 №3(2)</a></li>
+                            <li class=i><a href="ЛР16(6)№3(3).html">ЛР 6 №3(3)</a></li>
+                        </ul>
+                    </li>
+            </font>
+        </ul>
+    </nav>
+</body>
+
+</html>

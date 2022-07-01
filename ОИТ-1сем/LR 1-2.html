@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+
+<head>
+    <title>
+        CSS_CHESS
+    </title>
+    <style>
+        table {
+            display: flex;
+            border-collapse: collapse;
+            /*убирает "двойную " обводку*/
+        }
+        
+        table tr td {
+            height: 60px;
+            width: 60px;
+        }
+        
+        table tr:nth-child(even) td:nth-child(odd) {
+            background-color: white;
+        }
+        /*цвет для белых чёных строк белых нечётных столбцов*/
+        
+        table tr:nth-child(odd) td:nth-child(even) {
+            background-color: white;
+        }
+        /*цвет для белых нечётных строк чёных белых столбцов*/
+        
+        table tr:nth-child(even) td:nth-child(even) {
+            background-color: black;
+        }
+        
+        table tr:nth-child(odd) td:nth-child(odd) {
+            background-color: black;
+        }
+        
+        table tr:nth-child(n) td:last-child {
+            background-color: green;
+        }
+        
+        table tr:nth-child(n) td:first-child {
+            background-color: green;
+        }
+        
+        tr td:first-child {
+            width: 30px;
+            border: solid black;
+        }
+        
+        tr td:last-child {
+            width: 30px;
+            border: solid black;
+        }
+        
+        table tr:first-child td:nth-child(odd) {
+            background-color: green;
+            height: 30px;
+            border: solid black;
+        }
+        
+        table tr:first-child td:nth-child(even) {
+            background-color: green;
+            height: 30px;
+            border: solid black;
+        }
+        
+        table tr:last-child td:nth-child(even) {
+            background-color: green;
+            height: 30px;
+            width: 30px;
+            border: solid black;
+        }
+        
+        table tr:last-child td:nth-child(odd) {
+            background-color: green;
+            height: 30px;
+            width: 30px;
+            border: solid black;
+        }
+    </style>
+</head>
+
+<body>
+    <table>
+        <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+    </table>
+</body>
+
+</html>

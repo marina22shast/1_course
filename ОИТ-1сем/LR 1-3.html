@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+
+<head>
+    <title>
+        TEST_ANIM
+    </title>
+    <style>
+        div {
+            width: 350px;
+            height: 350px;
+            background: rgb(92, 173, 243);
+            border: 20px rgb(12, 4, 252) solid;
+            margin: 100px;
+        }
+        
+        .g {
+            opacity: 0;
+            transition: 1s;
+        }
+        
+        .g:hover {
+            opacity: 1;
+            transform: scale(1.5, 1.5);
+        }
+        
+        .i {
+            width: 100px;
+            height: 100px;
+            margin: 30px;
+            border: none;
+            background: none;
+        }
+        
+        .e {
+            animation-name: rotation;
+            animation-duration: 5s;
+            animation-iteration-count: infinite;
+            animation-timing-function: linear;
+        }
+        
+        .a:active {
+            animation-name: rot;
+            animation-duration: 5s;
+            animation-iteration-count: infinite;
+            animation-timing-function: linear;
+            transform: scale(2, 2);
+        }
+        
+        @keyframes rotation {
+            0% {
+                transform: rotate(0deg);
+            }
+            100% {
+                transform: rotate(360deg);
+            }
+        }
+        
+        @keyframes rot {
+            0% {
+                transform: rotate(360deg);
+            }
+            100% {
+                transform: rotate(0deg);
+            }
+        }
+    </style>
+</head>
+
+
+<body>
+    <div class=g>
+        <img src="img/smil.png" width=350px align=center class=a>
+    </div>
+    <div class=i>
+        <img src=img/zvezda.png width=100px class=e>
+    </div>
+
+</body>
+
+</html>

@@ -1,0 +1,17 @@
+body {
+     background: url(lala.png) fixed right top;
+ }
+ 
+ h1,
+ h2,
+ h3,
+ span {
+     font-style: italic;
+     color: rgb(8, 30, 71);
+     font-family: 'Times New Roman';
+ }
+ 
+ span {
+     font-size: 30px;
+ }
+}

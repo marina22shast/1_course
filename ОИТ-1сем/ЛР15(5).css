@@ -1,0 +1,101 @@
+  /*Шрифт*/
+  
+  @font-face {
+      font-family: "MariSh";
+      /* Задаем имя шрифта */
+      src: url('MariSh.ttf') format("truetype");
+      /* Указываем местонахождение нашего шрифта */
+  }
+  /*Фон*/
+  
+  body {
+      background-image: url(герлянда3.png), url(ёлка.jpg);
+      background-size: 1500px 1000px;
+      background-position: top right, bottom left;
+      /* Положение фона */
+      background-repeat: no-repeat;
+      /* Отменяем повторение фона */
+  }
+  /*Цвет*/
+  
+  .i {
+      display: inline;
+      background-color: hsla(56, 81%, 61%, 0.938);
+      color: hsl(340, 100%, 50%);
+  }
+  
+  span {
+      color: rgba(226, 95, 8, 0.664);
+      font-style: italic;
+      font-size: 20px;
+  }
+  /*Границы*/
+  
+  .u {
+      display: inline;
+      background: #df7537b6;
+      border: 1px solid rgba(216, 213, 25, 0.938);
+      padding: 5px;
+      border-radius: 50px 50px 50px 50px;
+      /*закругляет*/
+      text-align: center;
+  }
+  
+  .e {
+      display: inline;
+      box-shadow: 6px 6px 10px rgba(238, 216, 16, 0.726);
+      /*тень*/
+      font-size: 10px;
+  }
+  
+  .c {
+      display: inline;
+      border: 30px solid;
+      /*изображение в качестве рамки*/
+      border-image: url(ветка.jpg)1000 round round;
+  }
+  /*Шрифт*/
+  
+  h2 {
+      font-family: "MariSh", Arial, Helvetica, sans-serif;
+  }
+  /*Текст*/
+  
+  .r {
+      text-overflow: ellipsis;
+      /* Добавляем многоточие */
+      background: rgba(216, 213, 25, 0.938);
+  }
+  /*Трансформации*/
+  
+  .t:hover {
+      transform: translate(5px, 10px);
+  }
+  
+  .s:hover {
+      transform: skew(10deg, 20deg);
+  }
+  
+  .a:hover {
+      transform: scale(2, 2);
+  }
+  /*Градиент*/
+  
+  .g {
+      display: inline;
+      background: linear-gradient(-10deg, #e7eb0bc4, #ee280ec0);
+      padding: 10px;
+      border: 1px solid rgb(255, 248, 248);
+  }
+  /*Переходы*/
+  
+  .o:active {
+      height: 200px;
+      width: 200px;
+      border-radius: 200px;
+      background: radial-gradient( rgba(75, 197, 27, 0.774), rgb(63, 65, 64));
+      padding: 50px;
+      margin: 20px 50px 0;
+      display: inline-block;
+      transition: 1s;
+  }

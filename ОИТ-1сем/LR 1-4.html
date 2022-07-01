@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>MAKET_FLEX</title>
+    <style>
+        a {
+            color: pink;
+        }
+        
+        html,
+        body {
+            height: 100%;
+            width: 100%;
+            padding: 0;
+            margin: 0;
+            font-family: verdana, arial, sans-serif;
+        }
+        
+        body {
+            color: #fff;
+            font-size: 15px;
+            padding: 10px;
+            display: flex;
+            flex-direction: column;
+            flex: 10 10 50px;
+        }
+        
+        main {
+            display: flex;
+            flex-flow: row wrap-reverse;
+        }
+        
+        article {
+            background-color: #6d81fd;
+            flex: 3 200 120px;
+            padding: 10px;
+            height: 100%;
+            width: 100%;
+        }
+        
+        nav {
+            flex: 1 0.3 5em;
+            width: 100%;
+            background-color: #673cf5;
+        }
+        
+        nav {
+            order: -1;
+        }
+        
+        header,
+        footer {
+            flex: 0 0 50px;
+            background-color: #2600ff;
+            text-align: center;
+            height: 100%;
+            width: 100%;
+        }
+        
+        .img {
+            padding: 10px;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <p>Зоопарки Беларуси</p>
+    </header>
+    <main>
+        <article>
+            <h1>Зоопарки Беларуси</h1>
+            <p> <img src=img/zoo.jpg width=300 align=left> O том насколько важно само существование зоопарков красноречиво свидетельствует история возрождения короля белорусских лесов - зубра. Дело в том что все (все!) живущие сегодня на земле зубры ведут
+                свою родословную от 12 особей которые выжили после второй мировой воины только в зоопарках.
+            </p>
+            <p> Еще в 1940 году был разработан проект минского зоопарка. Его хотели построить на территории парка Горького, но он так не появился – началась война. Лишь через 44 года молодые минские энтузиасты создали при автомобильном заводе зооботанический
+                сад. Пришлось пережить непростые времена развала СССР, а также доказать свое право называться столичным зоопарком. </p>
+            <p>Самые искренние и желанные посетители зоопарка - дети. Они приходят сначала с родителями, а затем уже в составе школьных экскурсий и сами. Зоопарк расширяет их кругозор, помогает изучать биологию и другие естественные науки. Многие через зоомагазин
+                приобретают себе домой питомца - черепаху или попугая, аквариумных рыбок или морскую свинку. Здесь же в зоопарке дети получают первые навыки ухода за своими животными, а затем сюда приходят и за более глубокими консультациями.
+            </p>
+        </article>
+        <nav>
+
+            <ul>
+                <a href="https://culttourism.ru/belarus/minsk/minskiy_zoopark.html">
+                    <li>Минский зоопарк</li>
+                </a><br>
+                <a href="https://culttourism.ru/belarus/gomelskaya/zhlobin/zhlobinskiy_zoopark.html">
+                    <li>Жлобинский зоопарк</li>
+                </a><br>
+                <a href="https://culttourism.ru/belarus/vitebskaya/vitebsk/vitebskiy_zoopark.html">
+                    <li>Витебский зоопарк</li>
+                </a><br>
+                <a href="https://culttourism.ru/belarus/vitebskaya/lepel/lesnoy_zoopark.html">
+                    <li> Лесной зоопарк Березинского заповедника</li>
+                </a><br>
+                <a href="https://culttourism.ru/belarus/grodnenskaya/grodno/grodnenskiy_zoopark.html">
+                    <li> Гродненский зоопарк</li>
+                </a><br>
+            </ul>
+        </nav>
+    </main>
+    <footer>
+        <p>Zoos of Belarus</p>
+    </footer>
+</body>
+
+</html>

@@ -1,0 +1,41 @@
+<html>
+
+<head>
+    <title>
+        выезжающая машина
+    </title>
+    <style>
+        body {
+            background-image: url(дорога.png);
+            background-repeat: no-repeat;
+            background-size: 1100px;
+        }
+        
+        @-webkit-keyframes an {
+            0% {
+                margin-left: 520px;
+                /*величинa внешнего отступа от левой части элемента.*/
+                margin-top: 1px;
+                /*величинa внешнего отступа от верхней части элемента*/
+            }
+            100% {
+                margin-left: 560px;
+                margin-top: 500px;
+                transform: scale(2, 2);
+            }
+        }
+        
+        #wrap1 {
+            animation: an 3s infinite;
+            /*установит все свойства анимации */
+        }
+    </style>
+
+    <body>
+        <div id=wrap1><img src="машина.png" width: 10px;></div>
+    </body>
+</head>
+
+
+
+</html>

@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>квадратик-кружок</title>
+    <style>
+        @keyframes iliketomoveit {
+            0% {
+                left: 0px;
+            }
+            50% {
+                left: 500px;
+                border-radius: 120px;
+                background: rgba(3, 255, 234, 0.808);
+            }
+            100% {
+                left: 0px;
+                background: rgba(165, 71, 157, 0.753);
+            }
+        }
+        
+        .test {
+            width: 200px;
+            height: 200px;
+            position: relative;
+            animation: iliketomoveit 8s steps(6, start) 500ms infinite reverse;
+            /* "name (имя анимации) duration(длительность) timing-function (кривая скорости - шаговая анимация) delay (задержка 500 миллисекунд) iteration-count (количество повторов анимации - бесконечно) direction (направление анимации - reverse(в обратном направлении) )" */
+        }
+    </style>
+</head>
+
+<body>
+    <div class="test" align=center>
+    </div>
+</body>
+
+</html>
